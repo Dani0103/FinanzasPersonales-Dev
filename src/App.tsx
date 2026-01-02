@@ -1,14 +1,14 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import ProtectedRoute from "./components/ProtectedRoute";
-import LoginPage from "./pages/LoginPage";
-import DashboardPage from "./pages/DashboardPage";
-import AccountsPage from "./pages/AccountsPage";
-import PeriodsPage from "./pages/PeriodsPage";
-import MovementsPage from "./pages/MovementsPage";
-import ExtrasPage from "./pages/ExtrasPage";
-import RegisterPage from "./pages/RegisterPage";
-import PayrollPage from "./pages/PayrollPage";
+import Navbar from "@/components/Navbar";
+import ProtectedRoute from "@/components/ProtectedRoute";
+import LoginPage from "@/pages/LoginPage";
+import DashboardPage from "@/pages/DashboardPage";
+import AccountsPage from "@/pages/AccountsPage";
+import PeriodsPage from "@/pages/PeriodsPage";
+import MovementsPage from "@/pages/MovementsPage";
+import ExtrasPage from "@/pages/ExtrasPage";
+import RegisterPage from "@/pages/RegisterPage";
+import PayrollPage from "@/pages/PayrollPage";
 
 export default function App() {
   return (

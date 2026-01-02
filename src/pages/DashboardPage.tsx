@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
-import { api } from "../api/client";
-import { endpoints } from "../api/endpoints";
-import StatCard from "../components/ui/StatCard";
-import Select from "../components/ui/Select";
+import { api } from "@/api/client";
+import { endpoints } from "@/api/endpoints";
+import StatCard from "@/components/ui/StatCard";
+import Select from "@/components/ui/Select";
 
 type Period = {
   id: number;

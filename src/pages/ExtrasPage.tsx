@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { api } from "../api/client";
-import { endpoints } from "../api/endpoints";
-import Alert from "../components/ui/Alert";
-import ExtraForm from "../modules/extras/ExtraForm";
-import ExtrasFilters from "../modules/extras/ExtrasFilters";
-import ExtrasTable from "../modules/extras/ExtrasTable";
-import type { Extra, Period } from "../modules/extras/extras.types";
+import { api } from "@/api/client";
+import { endpoints } from "@/api/endpoints";
+import Alert from "@/components/ui/Alert";
+import ExtraForm from "@/modules/extras/ExtraForm";
+import ExtrasFilters from "@/modules/extras/ExtrasFilters";
+import ExtrasTable from "@/modules/extras/ExtrasTable";
+import type { Extra, Period } from "@/modules/extras/extras.types";
 
 export default function ExtrasPage() {
   const [periods, setPeriods] = useState<Period[]>([]);

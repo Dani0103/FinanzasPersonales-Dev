@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
-import { api } from "../../api/client";
-import { endpoints } from "../../api/endpoints";
-import Alert from "../../components/ui/Alert";
-import type { DeductionRule, DeductionType } from "./deductions.types";
-import DeductionRuleForm from "./DeductionRuleForm";
-import DeductionRulesTable from "./DeductionRulesTable";
+import { api } from "@/api/client";
+import { endpoints } from "@/api/endpoints";
+import Alert from "@/components/ui/Alert";
+import type {
+  DeductionRule,
+  DeductionType,
+} from "@/modules/payroll/deductions.types";
+import DeductionRuleForm from "@/modules/payroll/DeductionRuleForm";
+import DeductionRulesTable from "@/modules/payroll/DeductionRulesTable";
 
 export default function DeductionRulesPanel({
   onChanged,

@@ -1,5 +1,5 @@
-import type { Account, Movement } from "./movements.types";
-import { KIND, STATUS } from "./movements.types";
+import type { Account, Movement } from "@/modules/movements/movements.types";
+import { KIND, STATUS } from "@/modules/movements/movements.types";
 
 const money = (n: number) => n.toLocaleString("es-CO");
 

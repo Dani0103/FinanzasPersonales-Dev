@@ -1,9 +1,9 @@
 import { useMemo, useState } from "react";
-import { api } from "../../api/client";
-import { endpoints } from "../../api/endpoints";
-import TextField from "../../components/ui/TextField";
-import SelectField from "../../components/ui/SelectField";
-import type { DeductionType } from "./deductions.types";
+import { api } from "@/api/client";
+import { endpoints } from "@/api/endpoints";
+import TextField from "@/components/ui/TextField";
+import SelectField from "@/components/ui/SelectField";
+import type { DeductionType } from "@/modules/payroll/deductions.types";
 
 export default function DeductionRuleForm({
   types,

@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
-import { api } from "../../api/client";
-import { endpoints } from "../../api/endpoints";
-import TextField from "../../components/ui/TextField";
-import SelectField from "../../components/ui/SelectField";
-import type { Account, Period } from "./movements.types";
-import { KIND, STATUS } from "./movements.types";
+import { api } from "@/api/client";
+import { endpoints } from "@/api/endpoints";
+import TextField from "@/components/ui/TextField";
+import SelectField from "@/components/ui/SelectField";
+import type { Account, Period } from "@/modules/movements/movements.types";
+import { KIND, STATUS } from "@/modules/movements/movements.types";
 
 export default function MovementForm({
   accounts,

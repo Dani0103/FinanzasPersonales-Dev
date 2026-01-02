@@ -1,5 +1,5 @@
-import type { PayrollResp } from "./payroll.types";
-import { money } from "./payroll.types";
+import type { PayrollResp } from "@/modules/payroll/payroll.types";
+import { money } from "@/modules/payroll/payroll.types";
 
 export default function PayrollDeductions({
   items,

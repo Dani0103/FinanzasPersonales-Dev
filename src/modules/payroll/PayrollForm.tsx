@@ -1,8 +1,8 @@
 import { useMemo, useState } from "react";
-import { api } from "../../api/client";
-import { endpoints } from "../../api/endpoints";
-import TextField from "../../components/ui/TextField";
-import type { PayrollResp } from "./payroll.types";
+import { api } from "@/api/client";
+import { endpoints } from "@/api/endpoints";
+import TextField from "@/components/ui/TextField";
+import type { PayrollResp } from "@/modules/payroll/payroll.types";
 
 export default function PayrollForm({
   initial,

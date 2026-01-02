@@ -1,6 +1,6 @@
-import StatCard from "../../components/ui/StatCard";
-import { money } from "./payroll.types";
-import type { PayrollResp } from "./payroll.types";
+import StatCard from "@/components/ui/StatCard";
+import { money } from "@/modules/payroll/payroll.types";
+import type { PayrollResp } from "@/modules/payroll/payroll.types";
 
 export default function PayrollSummary({
   summary,

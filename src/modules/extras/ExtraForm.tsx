@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
-import { api } from "../../api/client";
-import { endpoints } from "../../api/endpoints";
-import SelectField from "../../components/ui/SelectField";
-import TextField from "../../components/ui/TextField";
-import type { Period } from "./extras.types";
+import { api } from "@/api/client";
+import { endpoints } from "@/api/endpoints";
+import SelectField from "@/components/ui/SelectField";
+import TextField from "@/components/ui/TextField";
+import type { Period } from "@/modules/extras/extras.types";
 
 export default function ExtraForm({
   periods,

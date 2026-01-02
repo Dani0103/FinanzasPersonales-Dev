@@ -1,5 +1,5 @@
-import type { Extra } from "./extras.types";
-import { money } from "./extras.types";
+import type { Extra } from "@/modules/extras/extras.types";
+import { money } from "@/modules/extras/extras.types";
 
 export default function ExtrasTable({ items }: { items: Extra[] }) {
   return (

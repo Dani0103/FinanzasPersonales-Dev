@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
-import { api } from "../api/client";
-import { endpoints } from "../api/endpoints";
-import Alert from "../components/ui/Alert";
-import MovementForm from "../modules/movements/MovementForm";
-import MovementsFilters from "../modules/movements/MovementsFilters";
-import MovementsTable from "../modules/movements/MovementsTable";
+import { api } from "@/api/client";
+import { endpoints } from "@/api/endpoints";
+import Alert from "@/components/ui/Alert";
+import MovementForm from "@/modules/movements/MovementForm";
+import MovementsFilters from "@/modules/movements/MovementsFilters";
+import MovementsTable from "@/modules/movements/MovementsTable";
 import type {
   Account,
   Period,
   Movement,
-} from "../modules/movements/movements.types";
+} from "@/modules/movements/movements.types";
 
 export default function MovementsPage() {
   const [accounts, setAccounts] = useState<Account[]>([]);

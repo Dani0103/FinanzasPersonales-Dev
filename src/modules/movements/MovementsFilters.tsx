@@ -1,6 +1,6 @@
-import SelectField from "../../components/ui/SelectField";
-import type { Account, Period } from "./movements.types";
-import { KIND, STATUS } from "./movements.types";
+import SelectField from "@/components/ui/SelectField";
+import type { Account, Period } from "@/modules/movements/movements.types";
+import { KIND, STATUS } from "@/modules/movements/movements.types";
 
 export default function MovementsFilters({
   periods,

@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { api } from "../api/client";
-import { setToken } from "../auth/auth";
-import AuthCard from "../components/ui/AuthCard";
-import TextField from "../components/ui/TextField";
-import Alert from "../components/ui/Alert";
-import { endpoints } from "../api/endpoints";
+import { api } from "@/api/client";
+import { setToken } from "@/auth/auth";
+import AuthCard from "@/components/ui/AuthCard";
+import TextField from "@/components/ui/TextField";
+import Alert from "@/components/ui/Alert";
+import { endpoints } from "@/api/endpoints";
 
 type LoginResponse = { userId: number; token: string };
 

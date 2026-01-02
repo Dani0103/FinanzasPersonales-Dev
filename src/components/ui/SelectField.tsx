@@ -1,4 +1,4 @@
-import Select from "./Select";
+import Select from "@/components/ui/Select";
 
 type Opt = { value: string; label: string };
 

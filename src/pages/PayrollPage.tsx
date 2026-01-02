@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { api } from "../api/client";
-import { endpoints } from "../api/endpoints";
-import Alert from "../components/ui/Alert";
-import PayrollForm from "../modules/payroll/PayrollForm";
-import PayrollSummary from "../modules/payroll/PayrollSummary";
-import PayrollDeductions from "../modules/payroll/PayrollDeductions";
-import DeductionRulesPanel from "../modules/payroll/DeductionRulesPanel";
-import type { PayrollResp } from "../modules/payroll/payroll.types";
+import { api } from "@/api/client";
+import { endpoints } from "@/api/endpoints";
+import Alert from "@/components/ui/Alert";
+import PayrollForm from "@/modules/payroll/PayrollForm";
+import PayrollSummary from "@/modules/payroll/PayrollSummary";
+import PayrollDeductions from "@/modules/payroll/PayrollDeductions";
+import DeductionRulesPanel from "@/modules/payroll/DeductionRulesPanel";
+import type { PayrollResp } from "@/modules/payroll/payroll.types";
 
 export default function PayrollPage() {
   const [data, setData] = useState<PayrollResp | null>(null);

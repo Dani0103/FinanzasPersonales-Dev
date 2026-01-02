@@ -1,5 +1,5 @@
-import SelectField from "../../components/ui/SelectField";
-import type { Period } from "./extras.types";
+import SelectField from "@/components/ui/SelectField";
+import type { Period } from "@/modules/extras/extras.types";
 
 export default function ExtrasFilters({
   periods,

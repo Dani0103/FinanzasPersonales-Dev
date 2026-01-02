@@ -1,6 +1,6 @@
-import { api } from "../../api/client";
-import { endpoints } from "../../api/endpoints";
-import type { DeductionRule } from "./deductions.types";
+import { api } from "@/api/client";
+import { endpoints } from "@/api/endpoints";
+import type { DeductionRule } from "@/modules/payroll/deductions.types";
 
 export default function DeductionRulesTable({
   items,
