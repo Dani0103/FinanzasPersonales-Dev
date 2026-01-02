@@ -9,13 +9,25 @@ export default function PayrollSummary({
 }) {
   return (
     <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-      <StatCard title="Básico" value={`$ ${money(summary.basic)}`} />
-      <StatCard title="Variable" value={`$ ${money(summary.variable)}`} />
+      <StatCard
+        title="Básico"
+        value={`$ ${money(summary.basic)}`}
+        color="blue"
+      />
+
+      <StatCard
+        title="Variable"
+        value={`$ ${money(summary.variable)}`}
+        color="amber"
+      />
+
       <StatCard
         title="Descuentos"
         value={`$ ${money(summary.total_deductions)}`}
+        color="red"
       />
-      <StatCard title="Neto" value={`$ ${money(summary.net)}`} />
+
+      <StatCard title="Neto" value={`$ ${money(summary.net)}`} color="green" />
     </div>
   );
 }

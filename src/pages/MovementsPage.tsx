@@ -62,7 +62,7 @@ export default function MovementsPage() {
   }, [filters.period, filters.account, filters.kind, filters.status]);
 
   return (
-    <div className="grid gap-4">
+    <div className="w-full grid gap-4">
       <div>
         <div className="text-xl font-semibold">Movimientos</div>
         <div className="text-sm text-slate-300">

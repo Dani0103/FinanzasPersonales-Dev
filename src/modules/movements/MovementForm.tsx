@@ -75,7 +75,7 @@ export default function MovementForm({
   };
 
   return (
-    <div className="rounded-xl border border-slate-800 bg-slate-900/40 p-4">
+    <div className="w-full rounded-xl border-2 border-slate-800 bg-slate-900/40 p-4">
       <div className="mb-3 text-sm font-semibold">Nuevo movimiento</div>
 
       <div className="grid gap-2 lg:grid-cols-6">

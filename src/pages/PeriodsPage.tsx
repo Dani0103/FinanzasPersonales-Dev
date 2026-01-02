@@ -117,7 +117,6 @@ export default function PeriodsPage() {
                 <th className="py-2 text-left font-medium">Etiqueta</th>
                 <th className="py-2 text-left font-medium">Desde</th>
                 <th className="py-2 text-left font-medium">Hasta</th>
-                <th className="py-2 text-right font-medium">ID</th>
               </tr>
             </thead>
 
@@ -134,7 +133,6 @@ export default function PeriodsPage() {
                   </td>
                   <td className="py-2 text-slate-200">{p.date_from}</td>
                   <td className="py-2 text-slate-200">{p.date_to}</td>
-                  <td className="py-2 text-right text-slate-200">#{p.id}</td>
                 </tr>
               ))}
 

@@ -18,7 +18,7 @@ export default function MovementsTable({
     STATUS.find((s) => s.id === id)?.label ?? `#${id}`;
 
   return (
-    <div className="rounded-xl border border-slate-800 bg-slate-900/40 p-4">
+    <div className="rounded-xl border border-slate-800 bg-slate-900/40 p-4 overflow-auto">
       <div className="mb-3 text-sm font-semibold">Listado</div>
 
       <div className="overflow-x-auto">
